@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title>Messages</title>
+
+  <link rel="stylesheet" type="text/css" href="/static/style.css" />
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="/static/docready.js"></script>
+</head>
+<body>
+<form id="sendmessage" method="post" action="/endpoint">
+  <textarea name="message" rows="3"></textarea>
+  <input type="submit" name="submit" />
+</form>
+<div id="messages">
+
+</div><!-- #wrapper -->
+</body>
+</html>

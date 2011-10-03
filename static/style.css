@@ -1,0 +1,44 @@
+body {
+  background: #AAA;
+  font: 18px/24px Verdana;
+  color: #555;
+}
+
+#sendmessage {
+  width: 440px;
+  padding: 20px;
+  background: #CCC;
+  margin: 0 auto 1px;
+}
+
+#sendmessage textarea {
+  width: 440px;
+  border: 1px solid #AAA;
+  border-top-color: #777;
+}
+  
+#messages {
+  background: #CCC;
+  width: 440px;
+  padding: 20px;
+  margin: 0 auto;
+}
+    
+div.message {
+  background: #EEE;
+  border-bottom: 1px solid #CCC;
+  height: 80px;
+  overflow: hidden;
+  padding: 10px;
+}
+   
+p.details {
+  padding: 0 0 0 80px;
+  margin: 0;
+}
+
+span.time {
+  color: #222;
+  font-weight: bold;
+}
+

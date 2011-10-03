@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/mwheeler/sockettest",
+			"folder_exclude_patterns": ["node_modules"]
+		}
+	]
+}
